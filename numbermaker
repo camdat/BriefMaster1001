@@ -1,0 +1,10 @@
+import re
+output = open("numbers.txt", "a")
+
+y = 0
+
+while (y < 2000):
+	y = y + 1
+	output.write(str(y))
+	output.write("|")
+
